@@ -1,1 +1,1 @@
-my beginner with python problems and projects 
+my beginning with python problems and projects 
