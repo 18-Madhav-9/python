@@ -8,17 +8,21 @@ def power_with_stack(a ,b) :
             stack.append("multiply")
             b -=1 
 
-    power = a
+    if len(stack) == 0 : 
+        return 1
+    else : 
+        power = a
+        
     while stack :
         var = stack.pop()
         if var == "square" :
-            power *= power
+            power *= power 
         else :
             power *= a
 
     return power
 
-print(power_with_stack(2,4)) 
+print(power_with_stack(2,2)) 
 
 
 
